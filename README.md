@@ -1,6 +1,6 @@
 # BizCardX - Extracting Business Card Data with OCR
 
-# OCR
+# OCr
 OCR or Optical Character Recognition is also referred to as text recognition or text extraction. This machine learning-based easyOCR technique allows users to extract printed or handwritten text from posters, cards, documents, etc. The text can be words, text lines or paragraphs enabling us to have a digital version of scanned text. This significantly eliminates manual entry. The OCR used here is by JAIDED AI.
 
 # Tools Install
