@@ -12,8 +12,10 @@ OCR or Optical Character Recognition is also referred to as text recognition or 
 
 # Text Detection
 Using easyOCR all the text in the card is detected using the business card image.
+'''
 reader = easyocr.Reader(['en'])
 text = reader.readtext(image_arr, detail=0)
+'''
 The detections are viewed by drawing a bounding box around the text with the text coordinates from the results.
 
 # Text Recognition
