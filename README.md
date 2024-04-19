@@ -4,11 +4,11 @@
 OCR or Optical Character Recognition is also referred to as text recognition or text extraction. This machine learning-based easyOCR technique allows users to extract printed or handwritten text from posters, cards, documents, etc. The text can be words, text lines or paragraphs enabling us to have a digital version of scanned text. This significantly eliminates manual entry. The OCR used here is by JAIDED AI.
 
 # Tools Install
-Python 3.x (https://www.python.org/downloads/)
-Streamlit (pip install streamlit)
-Streamlit option menu (pip install streamlit-option-menu)
-Mysql.connector ( Pip install mysql.connector)
-Pandas (pip install pandas)
+>Python 3.x (https://www.python.org/downloads/)
+>Streamlit (pip install streamlit)
+>Streamlit option menu (pip install streamlit-option-menu)
+>Mysql.connector ( Pip install mysql.connector)
+>Pandas (pip install pandas)
 
 # Text Detection
 Using easyOCR all the text in the card is detected using the business card image.
@@ -23,3 +23,6 @@ The card details are recognized as a specific field using regular expression Pyt
 The detected card details are stored in SQL DB for viewing, modifying, and deleting a stored card by the user.
 These functionalities are provided to the user with button input elements by streamlit.
 The web application is deployed for use by others.
+
+This provides a user interface for extracting business card information with easyOCR and Streamlit.
+    
